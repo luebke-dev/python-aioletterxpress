@@ -4,7 +4,7 @@ asyncio client for letterxpress.de api
 ## Install
 
 ```bash
-pip install letterxpress
+pip install aioletterxpress
 ```
 
 ## How to use
