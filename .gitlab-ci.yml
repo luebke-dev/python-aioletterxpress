@@ -1,0 +1,8 @@
+publish-pypi:
+    image: python:3.8.3-buster
+    script:
+        - pip install poetry
+        - poetry build
+        - poetry publish
+    only:
+        - tags
